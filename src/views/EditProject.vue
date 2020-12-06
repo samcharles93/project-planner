@@ -15,7 +15,7 @@ export default {
     return {
       title: '',
       details: '',
-      uri: 'http://localhost:8081/projects/' + this.id,
+      uri: 'https://my-json-server.typicode.com/samcharles93/project-planner/projects/' + this.id,
     }
   },
   mounted() {

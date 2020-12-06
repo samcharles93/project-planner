@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       showDetails: false,
-      uri: 'http://localhost:8081/projects/' + this.project.id,
+      uri: 'https://my-json-server.typicode.com/samcharles93/project-planner/projects/' + this.project.id,
     }
   },
   methods: {

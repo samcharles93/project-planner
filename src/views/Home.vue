@@ -26,7 +26,7 @@ export default {
     }
   },
   mounted() {
-    fetch('http://localhost:8081/projects')
+    fetch('https://my-json-server.typicode.com/samcharles93/project-planner/projects')
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message))

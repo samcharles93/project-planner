@@ -24,7 +24,7 @@ export default {
         complete: false,
       }
 
-      fetch('http://localhost:8081/projects', {
+      fetch('https://my-json-server.typicode.com/samcharles93/project-planner/projects', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(project),
