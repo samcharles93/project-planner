@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Create a New Website",
+      "details": "Lorem Ipsum",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "title": "Create a Project Planner",
+      "details": "Lorem Ipsum WOW!",
+      "complete": false
+    },
+    {
+      "title": "New Project",
+      "details": "Some Details of the Project",
+      "complete": true,
+      "id": 3
+    }
+  ]
+}
